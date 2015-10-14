@@ -1,0 +1,4 @@
+deps: all
+all:
+    deps: LICENSE, README.md, CHANGELOG.md
+
