@@ -2,3 +2,6 @@ deps: all
 all:
     deps: LICENSE, README.md, CHANGELOG.md
 
+readme:
+    badges:
+        github.version:
