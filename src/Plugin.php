@@ -20,5 +20,10 @@ class Plugin extends \hiqdev\pluginmanager\Plugin
         'views' => [
             '@hidev/python/views',
         ],
+        'vcsignore' => [
+            '__pycache__/'  => 'Byte-compiled / optimized / DLL files',
+            '*.py[cod]'     => 'Byte-compiled / optimized / DLL files',
+            '*$py.class'    => 'Byte-compiled / optimized / DLL files',
+        ],
     ];
 }
