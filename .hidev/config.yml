@@ -1,6 +1,6 @@
 package:
     name:           hidev-python
-    namespace:      hiqdev\hidev\python
+    namespace:      hidev\python
     headline:       HiDev Python
     title:          HiDev config for Python projects
     type:           yii2-extension

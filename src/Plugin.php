@@ -3,22 +3,22 @@
 /*
  * Hidev config for PHP projects
  *
- * @link      https://github.com/hiqdev/hidev-config-python
- * @package   hidev-config-python
+ * @link      https://github.com/hiqdev/hidev-python
+ * @package   hidev-python
  * @license   BSD-3-Clause
  * @copyright Copyright (c) 2015, HiQDev (https://hiqdev.com/)
  */
 
-namespace hiqdev\hidev\config\python;
+namespace hidev\python;
 
 class Plugin extends \hiqdev\pluginmanager\Plugin
 {
     protected $_items = [
         'configFiles' => [
-            '@hiqdev/hidev/config/python/config.yml',
+            '@hidev/python/config.yml',
         ],
         'views' => [
-            '@hiqdev/hidev/config/python/views',
+            '@hidev/python/views',
         ],
     ];
 }
