@@ -1,5 +1,5 @@
-hiqdev/hidev-config-python changelog
-------------------------------------
+hiqdev/hidev-python changelog
+-----------------------------
 
 ## Under development
 

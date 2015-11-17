@@ -1,5 +1,5 @@
-hiqdev/hidev-config-python commits history
-------------------------------------------
+hiqdev/hidev-python commits history
+-----------------------------------
 
 ## Under development
 

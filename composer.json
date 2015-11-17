@@ -1,13 +1,13 @@
 {
-    "name": "hiqdev/hidev-config-python",
+    "name": "hiqdev/hidev-python",
     "type": "yii2-extension",
-    "description": "Hidev config for Python projects",
+    "description": "HiDev config for Python projects",
     "keywords": [
         "hidev",
         "config",
         "python"
     ],
-    "homepage": "https://github.com/hiqdev/hidev-config-python",
+    "homepage": "https://github.com/hiqdev/hidev-python",
     "license": "BSD-3-Clause",
     "support": {
         "email": "support@hiqdev.com",
@@ -44,7 +44,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "hiqdev\\hidev\\config\\python\\": "src"
+            "hiqdev\\hidev\\python\\": "src"
         }
     }
 }
