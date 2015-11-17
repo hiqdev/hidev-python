@@ -3,6 +3,8 @@ hiqdev/hidev-python commits history
 
 ## Under development
 
+- Added Python vcs ignores
+    - a8c5675 2015-11-17 + vcs ignoring for Byte-compiled / optimized / DLL files (sol@hiqdev.com)
 - Redone to `hidev-python`
     - af20e49 2015-11-17 fixed namespace to `hidev\\python` (sol@hiqdev.com)
     - 63b7548 2015-11-17 redoing to `hidev-python` (sol@hiqdev.com)
