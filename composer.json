@@ -42,9 +42,25 @@
             "homepage": "http://hiqdev.com/"
         }
     ],
+    "require": {
+        "hiqdev/hidev-readme": "*",
+        "hiqdev/hidev-travis": "*",
+        "hiqdev/hidev-license": "*",
+        "hiqdev/hidev-scrutinizer": "*"
+    },
+    "require-dev": {
+        "hiqdev/hidev": "*@dev",
+        "hiqdev/hidev-readme": "*@dev",
+        "hiqdev/hidev-travis": "*@dev",
+        "hiqdev/hidev-license": "*@dev",
+        "hiqdev/hidev-scrutinizer": "*@dev"
+    },
     "autoload": {
         "psr-4": {
             "hidev\\python\\": "src"
         }
+    },
+    "extra": {
+        "yii2-extraconfig": "src/yii2-extraconfig.php"
     }
 }

@@ -1,19 +1,26 @@
 package:
+    type:           yii2-extension
     name:           hidev-python
     namespace:      hidev\python
     headline:       HiDev Python
     title:          HiDev config for Python projects
-    type:           yii2-extension
     keywords:       hidev, config, python
-    year:           2015
     description:    |
         [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
         This plugin enables HiDev for Python projects.
 
         Provides:
         - standart: LICENSE, README.md, CHANGELOG.md
-        - to be done: PyPI, autopep8, ...
+        - CI: Travis & Scrutinizer
+        - to be done: PyPI, pylint, autopep8, ...
 
 require:
-    hiqdev/hidev-hiqdev:        "*@dev"
-    hiqdev/hidev-config-php:    "*@dev"
+    hiqdev/hidev-php:           "*@dev"
+    hiqdev/hidev-readme:        "*@dev"
+    hiqdev/hidev-travis:        "*@dev"
+    hiqdev/hidev-vendor:        "*@dev"
+    hiqdev/hidev-license:       "*@dev"
+    hiqdev/hidev-phpunit:       "*@dev"
+    hiqdev/hidev-composer:      "*@dev"
+    hiqdev/hidev-scrutinizer:   "*@dev"
+    hiqdev/hidev-php-cs-fixer:  "*@dev"

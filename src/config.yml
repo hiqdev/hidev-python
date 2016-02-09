@@ -1,7 +1,26 @@
-deps: all
-all:
-    deps: LICENSE, README.md, CHANGELOG.md
+default:
+    before:
+        - LICENSE
+        - README.md
+        - CHANGELOG.md
+        - .travis.yml
+        - .scrutinizer.yml
 
 readme:
     badges:
         github.version:
+        scrutinizer.coverage:
+        scrutinizer.quality:
+
+.travis.yml:
+    language: php
+
+.scrutinizer.yml:
+    checks:
+        python:
+            code_rating: true
+            duplication: true
+    tools:
+        external_code_coverage:
+            timeout: 600
+            runs:    1
