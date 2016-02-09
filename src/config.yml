@@ -5,6 +5,19 @@ default:
         - CHANGELOG.md
         - .travis.yml
         - .scrutinizer.yml
+install:
+    before:
+        - LICENSE
+check:
+    before:
+        - LICENSE
+test:
+    before:
+        - install
+build:
+    before:
+        - check
+        - test
 
 readme:
     badges:
@@ -13,13 +26,19 @@ readme:
         scrutinizer.quality:
 
 .travis.yml:
-    language: php
+    language: python
+    python:
+        - 2.7
+        - 3.4
+    matrix:
+        allow_failures:
+            - python: 3.4
 
 .scrutinizer.yml:
     checks:
         python:
             code_rating: true
-            duplication: true
+            duplicate_code: true
     tools:
         external_code_coverage:
             timeout: 600
