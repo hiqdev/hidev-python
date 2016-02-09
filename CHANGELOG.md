@@ -3,8 +3,9 @@ hiqdev/hidev-python changelog
 
 ## Under development
 
+- Changed: redone with yii2-extraconfig and other hidev latest features
 - Added Python vcs ignores
-- Redone to `hidev-python`
+- Changed: redone to `hidev-python`
 
 ## 0.0.1 2015-10-25
 
