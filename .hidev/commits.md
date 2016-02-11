@@ -3,6 +3,8 @@ hiqdev/hidev-python commits history
 
 ## Under development
 
+- Fixed basic actions and scrutinizer config
+    - d775416 2016-02-09 improved basic actions and scrutinizer config (sol@hiqdev.com)
 - Changed: redone with yii2-extraconfig and other hidev latest features
     - 7721635 2016-02-09 redone with yii2-extraconfig and other hidev latest features (sol@hiqdev.com)
 - Added Python vcs ignores
