@@ -11,9 +11,11 @@ HiDev Python
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:hidev-python/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hidev-python/dev-master)
 
 [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+
 This plugin enables HiDev for Python projects.
 
 Provides:
+
 - standart: LICENSE, README.md, CHANGELOG.md
 - CI: Travis & Scrutinizer
 - to be done: PyPI, pylint, autopep8, ...
