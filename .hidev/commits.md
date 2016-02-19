@@ -1,14 +1,14 @@
 hiqdev/hidev-python commits history
 -----------------------------------
 
-## Under development
+## 0.3.0 2016-02-19
 
 - Fixed basic actions and scrutinizer config
-    - d775416 2016-02-09 improved basic actions and scrutinizer config (sol@hiqdev.com)
+    - 3af3459 2016-02-19 rehideved (sol@hiqdev.com)
+    - f294e9c 2016-02-09 improved basic actions and scrutinizer config (sol@hiqdev.com)
+    - a8c5675 2015-11-17 + vcs ignoring for Byte-compiled / optimized / DLL files (sol@hiqdev.com)
 - Changed: redone with yii2-extraconfig and other hidev latest features
     - 7721635 2016-02-09 redone with yii2-extraconfig and other hidev latest features (sol@hiqdev.com)
-- Added Python vcs ignores
-    - a8c5675 2015-11-17 + vcs ignoring for Byte-compiled / optimized / DLL files (sol@hiqdev.com)
 - Changed: redone to `hidev-python`
     - af20e49 2015-11-17 fixed namespace to `hidev\python` (sol@hiqdev.com)
     - 63b7548 2015-11-17 redoing to `hidev-python` (sol@hiqdev.com)
