@@ -2,8 +2,12 @@ checks:
     php:
         code_rating: true
         duplication: true
+    python:
+        code_rating: true
+        duplicate_code: true
 tools:
     php_code_coverage:
         enabled: true
     external_code_coverage:
         timeout: 600
+        runs: 1

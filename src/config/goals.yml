@@ -2,7 +2,7 @@ default:
     before:
         - LICENSE
         - README.md
-        - CHANGELOG.md
+        - .gitignore
         - .travis.yml
         - .scrutinizer.yml
 install:

@@ -13,7 +13,7 @@ return [
     'components' => [
         'config' => [
             'include' => [
-                '@hidev/python/config.yml',
+                '@hidev/python/config/goals.yml',
             ],
             'views' => [
                 '@hidev/python/views',

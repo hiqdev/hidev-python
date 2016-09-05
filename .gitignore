@@ -22,10 +22,17 @@ composer.lock
 # php-cs-fixer cache
 .php_cs.cache
 
+# Byte-compiled / optimized / DLL files
+*$py.class
+*.py[cod]
+__pycache__/
+
 # phpunit generated files
 coverage.clover
 
 # PHARs
+chkipper.phar
 composer.phar
 php-cs-fixer.phar
+phpunit-skelgen.phar
 phpunit.phar
