@@ -14,6 +14,7 @@ check:
 test:
     before:
         - install
+        - pytest
 build:
     before:
         - check
@@ -26,7 +27,9 @@ readme:
         scrutinizer.quality:
 
 .travis.yml:
-    language: python
+    language: php
+    php:
+        - 5.7
     python:
         - 2.7
         - 3.4
