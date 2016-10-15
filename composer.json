@@ -43,6 +43,7 @@
         }
     ],
     "require": {
+        "hiqdev/hidev-pytest": "<2.0 || dev-master",
         "hiqdev/hidev-readme": "<2.0 || dev-master",
         "hiqdev/hidev-travis": "<2.0 || dev-master",
         "hiqdev/hidev-license": "<2.0 || dev-master",
@@ -53,6 +54,7 @@
         "hiqdev/hidev": "dev-master",
         "hiqdev/hidev-php": "dev-master",
         "hiqdev/hidev-hiqdev": "dev-master",
+        "hiqdev/hidev-pytest": "dev-master",
         "hiqdev/hidev-readme": "dev-master",
         "hiqdev/hidev-travis": "dev-master",
         "hiqdev/hidev-license": "dev-master",
