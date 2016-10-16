@@ -30,9 +30,7 @@ pytest:
     coverage: true
 
 .travis.yml:
-    language: php
-    php:
-        - 7
+    language: python
     python:
         - 2.7
         - 3.4
