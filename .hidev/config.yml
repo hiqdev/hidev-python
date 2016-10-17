@@ -16,6 +16,9 @@ package:
         - CI: Travis & Scrutinizer
         - to be done: PyPI, pylint, autopep8, ...
 
+.travis.yml:
+    language: php
+
 require:
     hiqdev/hidev-php:           "*@dev"
     hiqdev/hidev-readme:        "*@dev"
