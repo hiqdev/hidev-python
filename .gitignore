@@ -33,10 +33,11 @@ __pycache__/
 # phpunit generated files
 coverage.clover
 
-# PHARs
+# Binaries
 chkipper.phar
 composer.phar
 coverage.phar
+ocular.phar
 php-cs-fixer.phar
 phpunit-skelgen.phar
 phpunit.phar
