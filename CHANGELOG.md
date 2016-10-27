@@ -1,7 +1,10 @@
 hiqdev/hidev-python
 -------------------
 
-## [Under development]
+## [0.3.1] - 2016-10-17
+
+- Added travis test coverage uploading
+- Added pytest with `hiqdev/hidev-pytest`
 
 ## [0.3.0] - 2016-02-19
 

@@ -1,8 +1,11 @@
 hiqdev/hidev-python
 -------------------
 
-## [Under development]
+## [0.3.1] - 2016-10-17
 
+- Added travis test coverage uploading
+    - [c970363] 2016-10-17 added travis coverage uploading [sol@hiqdev.com]
+    - [f78de13] 2016-10-17 redone history bumping with `chkipper` [sol@hiqdev.com]
 - Added pytest with `hiqdev/hidev-pytest`
     - [006996d] 2016-10-17 fixed .travis.yml language to php [sol@hiqdev.com]
     - [4ace4ee] 2016-10-16 fixed back .travis.yml config: language python [sol@hiqdev.com]
@@ -44,3 +47,5 @@ hiqdev/hidev-python
 [8242db1]: https://github.com/hiqdev/hidev-python/commit/8242db1
 [241e29f]: https://github.com/hiqdev/hidev-python/commit/241e29f
 [9a053a4]: https://github.com/hiqdev/hidev-python/commit/9a053a4
+[c970363]: https://github.com/hiqdev/hidev-python/commit/c970363
+[f78de13]: https://github.com/hiqdev/hidev-python/commit/f78de13
