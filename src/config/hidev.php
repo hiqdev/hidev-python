@@ -11,18 +11,20 @@
 
 return [
     'components' => [
-        'config' => [
-            'include' => [
-                '@hidev/python/config/goals.yml',
+        'include' => [
+            __DIR__ . '/goals.yml',
+        ],
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@hidev/views' => '@hidev/python/views',
+                ],
             ],
-            'views' => [
-                '@hidev/python/views',
-            ],
-            'vcsignore' => [
-                '__pycache__/'  => 'Byte-compiled / optimized / DLL files',
-                '*.py[cod]'     => 'Byte-compiled / optimized / DLL files',
-                '*$py.class'    => 'Byte-compiled / optimized / DLL files',
-            ],
+        ],
+        'vcsignore' => [
+            '__pycache__/'  => 'Byte-compiled / optimized / DLL files',
+            '*.py[cod]'     => 'Byte-compiled / optimized / DLL files',
+            '*$py.class'    => 'Byte-compiled / optimized / DLL files',
         ],
     ],
 ];
