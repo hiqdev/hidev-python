@@ -1,5 +1,4 @@
-HiDev Python
-============
+# HiDev Python
 
 **HiDev config for Python projects**
 
@@ -20,28 +19,3 @@ Provides:
 - standart: LICENSE, README.md, CHANGELOG.md
 - CI: Travis & Scrutinizer
 - to be done: PyPI, pylint, autopep8, ...
-
-## Installation
-
-The preferred way to install this yii2-extension is through [composer](http://getcomposer.org/download/).
-
-Either run
-
-```sh
-php composer.phar require "hiqdev/hidev-python"
-```
-
-or add
-
-```json
-"hiqdev/hidev-python": "*"
-```
-
-to the require section of your composer.json.
-
-## License
-
-This project is released under the terms of the BSD-3-Clause [license](LICENSE).
-Read more [here](http://choosealicense.com/licenses/bsd-3-clause).
-
-Copyright © 2015-2016, HiQDev (http://hiqdev.com/)
